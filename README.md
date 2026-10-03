@@ -190,16 +190,13 @@ The main classification confusion occurred between **Business** and **Sci/Tech**
 
 ---
 
-## 🧠 Model Hosting
+## 🤗 Model Hosting
 
-The fine-tuned model and tokenizer are hosted on Hugging Face:
+The fine-tuned DistilBERT model and tokenizer are hosted on Hugging Face:
 
-**Model:** `Ziaul1234/distilbert-agnews-classifier`
+**Model:** [Ziaul1234/distilbert-agnews-classifier](https://huggingface.co/Ziaul1234/distilbert-agnews-classifier)
 
 The FastAPI application downloads the model from Hugging Face when the application starts.
-
----
-
 ## ⚡ FastAPI
 
 The trained Transformer model is exposed through a REST API.
